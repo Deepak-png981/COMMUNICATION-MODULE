@@ -1,0 +1,988 @@
+/* Default (Light) Theme */
+:root {
+  --background-color: #fff;
+  /* Background color for the body */
+  --text-color: #000;
+  /* Text color */
+  --nav-background-color: #333;
+  /* Background color for the navigation bar */
+  --nav-text-color: #fff;
+  /* Light text color for navigation links */
+  --nav-active-color: #ff6600;
+  /* Accent color for active link in navigation */
+  --font-family: Arial, sans-serif;
+  /* Font family */
+  --font-weight: normal;
+  /* Font weight */
+  --font-style: normal;
+  /* Font style */
+  --font-size: 16px;
+  /* Font size */
+}
+
+/* Dark Theme */
+.dark-theme {
+  --background-color: #333;
+  /* Dark background color for the body */
+  --text-color: #fff;
+  /* Light text color for content */
+  --nav-background-color: #333;
+  /* Background color for the navigation bar */
+  --nav-text-color: #fff;
+  /* Light text color for navigation links */
+  --nav-active-color: #ff6600;
+  /* Accent color for active link in navigation */
+  --font-family: 'Times New Roman', serif;
+  /* Font family */
+  --font-weight: bold;
+  /* Font weight */
+  --font-style: normal;
+  /* Font style */
+  --font-size: 18px;
+  /* Font size */
+}
+
+/* Sky Blue Theme */
+.skyblue-theme {
+  --background-color: #87CEEB;
+  /* Sky Blue background color for the body */
+  --text-color: #000;
+  /* Text color */
+  --nav-background-color: #4682B4;
+  /* Background color for the navigation bar */
+  --nav-text-color: #fff;
+  /* Light text color for navigation links */
+  --nav-active-color: #FFA500;
+  /* Accent color for active link in navigation */
+  --font-family: 'Verdana', sans-serif;
+  /* Font family */
+  --font-weight: normal;
+  /* Font weight */
+  --font-style: italic;
+  /* Font style */
+  --font-size: 16px;
+  /* Font size */
+}
+
+/* Blood Red Theme */
+.blood-red-theme {
+  --background-color: #8B0000;
+  /* Blood Red background color for the body */
+  --text-color: #fff;
+  /* Light text color for content */
+  --nav-background-color: #333;
+  /* Background color for the navigation bar */
+  --nav-text-color: #fff;
+  /* Light text color for navigation links */
+  --nav-active-color: #FF4500;
+  /* Accent color for active link in navigation */
+  --font-family: 'Georgia', serif;
+  /* Font family */
+  --font-weight: normal;
+  /* Font weight */
+  --font-style: normal;
+  /* Font style */
+  --font-size: 16px;
+  /* Font size */
+}
+
+.neon-theme {
+  --background-color: #1c1c1c;
+  /* Dark background color for the body */
+  --text-color: #0ff;
+  /* Neon text color for content */
+  --nav-background-color: #333;
+  /* Darker background color for the navigation bar */
+  --nav-text-color: #0ff;
+  /* Neon text color for navigation links */
+  --nav-active-color: #f0f;
+  /* Accent color for active link in navigation (Neon Pink) */
+  --font-family: 'Courier New', monospace;
+  /* Font family to give it a retro feel */
+  --font-weight: normal;
+  /* Font weight */
+  --font-style: normal;
+  /* Font style */
+  --font-size: 16px;
+  /* Font size */
+
+  /* Neon Text Glow effect */
+  text-shadow: 0 0 5px rgb(88, 119, 119), 0 0 10px rgb(0, 0, 0), 0 0 20px #0ff, 0 0 40px #0ff, 0 0 80px #0ff;
+}
+
+.neon-theme button {
+  color: #1c1c1c;
+  /* Set the text color for buttons to dark */
+  /* Make it dark to contrast with the neon background */
+}
+
+/* Darkest Dark Theme */
+.darkest-dark-theme {
+  --background-color: #000;
+  /* Darkest background color for the body */
+  --text-color: #fff;
+  /* Light text color for content */
+  --nav-background-color: #333;
+  /* Background color for the navigation bar */
+  --nav-text-color: #ffebeb;
+  /* Light text color for navigation links */
+  --nav-active-color: #ff6600;
+  /* Accent color for active link in navigation */
+  --font-family: 'Courier New', monospace;
+  /* Font family */
+  --font-weight: normal;
+  /* Font weight */
+  --font-style: normal;
+  /* Font style */
+  --font-size: 16px;
+  /* Font size */
+}
+
+/* Update Chat Container Background */
+.darkest-dark-theme .chat-messages {
+  background-color: var(--background-color);
+  /* Use theme background color */
+}
+
+/* Update Chat Input Background */
+.darkest-dark-theme .chat-input {
+  background-color: #000;
+  /* Darkest background color */
+}
+
+/* Update Message Input Background */
+.darkest-dark-theme .message-input {
+  background-color: #333;
+  /* Dark background color for message input */
+  border: 1px solid #555;
+  /* Dark border color */
+  color: #fff;
+  /* Light text color */
+}
+
+/* Update Send Button Colors */
+.darkest-dark-theme .send-button {
+  background-color: #ff6600;
+  /* Accent color for send button */
+  color: #fff;
+  /* Text color */
+}
+
+/* Update Send Button Hover Color */
+.darkest-dark-theme .send-button:hover {
+  background-color: #ff5500;
+  /* Darker accent color on hover */
+}
+
+/* Lightest Light Theme */
+.lightest-light-theme {
+  --background-color: #fff;
+  /* Lightest background color for the body */
+  --text-color: #000;
+  /* Text color */
+  --nav-background-color: #f0f0f0;
+  /* Background color for the navigation bar */
+  --nav-text-color: #333;
+  /* Text color for navigation links */
+  --nav-active-color: #007bff;
+  /* Accent color for active link in navigation */
+  --font-family: Arial, sans-serif;
+  /* Font family */
+  --font-weight: normal;
+  /* Font weight */
+  --font-style: normal;
+  /* Font style */
+  --font-size: 16px;
+  /* Font size */
+}
+
+/* Windows XP Theme */
+
+.whatsapp-light-theme {
+  --background-color: #fff;
+  /* Background color for the body */
+  --text-color: #000;
+  /* Text color */
+  --nav-background-color: #0073e6;
+  /* Background color for the navigation bar */
+  --nav-text-color: #fff;
+  /* Light text color for navigation links */
+  --nav-active-color: #25d366;
+  /* Accent color for active link in navigation */
+  --font-family: Arial, sans-serif;
+  /* Font family */
+  --font-weight: normal;
+  /* Font weight */
+  --font-style: normal;
+  /* Font style */
+  --font-size: 16px;
+  /* Font size */
+}
+
+
+/* Add other theme definitions here */
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: var(--font-family);
+  /* Apply font-family */
+  font-weight: var(--font-weight);
+  /* Apply font-weight */
+  font-style: var(--font-style);
+  /* Apply font-style */
+  font-size: var(--font-size);
+  /* Apply font-size */
+  /* Add other body styles here */
+}
+
+/* Dark mode navigation bar */
+nav {
+  background-color: var(--nav-background-color);
+  color: var(--nav-text-color);
+  font-size: var(--font-size);
+  /* Apply font-size */
+  padding: 0.625rem 1.25rem;
+  /* 10px top/bottom, 20px left/right in rem units */
+  font-weight: bold;
+  font-family: var(--font-family);
+  /* Apply font-family */
+}
+
+/* Style for the navigation links */
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 1.25rem;
+  /* 20px in rem units */
+  padding: 0 0.3125rem;
+  /* 5px in rem units */
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--nav-text-color);
+  padding: 0.5rem;
+}
+
+/* Style for the active link in dark mode */
+nav a.active {
+  font-weight: bold;
+  color: var(--nav-active-color);
+  /* Accent color for active link */
+}
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--nav-background-color);
+  color: var(--nav-text-color);
+  padding: 1rem;
+  font-weight: bold;
+}
+
+/* Navigation list styles */
+.navbar-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+}
+
+/* Navigation list items styles */
+.navbar-list li {
+  display: inline;
+}
+
+.theme-toggle {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Theme toggle button icon styles */
+.theme-toggle i {
+  font-size: 1.5rem;
+  /* Adjust the size of the theme icon */
+  border: 1px solid var(--nav-text-color);
+  /* Add a border for the icon */
+  border-radius: 50%;
+  /* Make the icon rounded */
+  padding: 0.25rem;
+  /* Add some padding for spacing */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Dark mode button styles */
+button {
+  background-color: var(--nav-background-color);
+  /* Use the same background color as the navigation bar */
+  color: var(--nav-text-color);
+  padding: 10px 20px;
+  font-size: var(--font-size);
+  /* Apply font-size */
+  font-weight: bold;
+}
+
+/* Hamburger button styles */
+.hamburger-button {
+  display: none;
+  /* Hide the hamburger button by default */
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin-right: 1rem;
+  /* Add some margin to separate it from other links */
+
+  @media screen and (max-width: 768px) {
+    /* Show the hamburger button on screens with a maximum width of 768px (adjust as needed) */
+    display: block;
+  }
+
+}
+
+.hamburger-button.open {
+  position: absolute;
+  top: 2rem;
+  right: 1rem;
+  background-color: var(--background-color);
+  color: var(--nav-active-color);
+}
+
+.hamburger-button.open .bar:first-child {
+  transform: translateY(9px) rotate(45deg);
+}
+
+.hamburger-button.open .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger-button.open .bar:last-child {
+  transform: translateY(-9px) rotate(-45deg);
+}
+
+
+.navbar-list.collapsed {
+  display: block;
+
+  @media screen and (max-width: 768px) {
+    /* Show the hamburger button on screens with a maximum width of 768px (adjust as needed) */
+    display: none;
+  }
+}
+
+/* Hamburger bar styles */
+.bar {
+  display: block;
+  width: 30px;
+  height: 3px;
+  background-color: var(--nav-text-color);
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+  .navbar-list {
+    font-size: 0.8rem;
+    gap: 0.5rem;
+  }
+
+  nav li {
+    margin-right: 0.8rem;
+    padding: 0 0.2rem;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+  .navbar-list {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  nav li {
+    margin-right: 0;
+    padding: 0.2rem 0;
+  }
+
+  .navbar {
+    padding: 0.5rem;
+  }
+}
+
+
+#UserProfileControllerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  border-radius: 12px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: 2rem auto;
+}
+
+.profile-content {
+  width: 100%;
+}
+
+.profile-content div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.profile-content span {
+  flex: 1;
+  /* Adjust as per requirement to maintain size ratio */
+  font-weight: bold;
+}
+
+.profile-content input {
+  flex: 2;
+  /* Adjust as per requirement to maintain size ratio */
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-left: 10px;
+}
+
+/* Button Grouping */
+.profile-content button {
+  padding: 8px 12px;
+  margin: 5px;
+  background-color: var(--nav-active-color);
+  color: var(--text-color);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.profile-content button:hover {
+  background-color: var(--nav-text-color);
+  color: var(--nav-background-color);
+  /* Setting text color on hover to ensure contrast */
+  transform: scale(1.05);
+  /* Slight zoom effect on hover */
+}
+
+button {
+  cursor: pointer;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--nav-active-color);
+  color: var(--text-color);
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: var(--nav-text-color);
+}
+
+
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+  #UserProfileControllerContainer {
+    max-width: 90%;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+  #UserProfileControllerContainer {
+    max-width: 100%;
+    padding: 15px;
+  }
+}
+
+
+/* login */
+
+.login-container {
+  width: 80%;
+  max-width: 400px;
+  margin: 5% auto;
+  padding: 20px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: var(--font-family);
+  font-weight: var(--font-weight);
+  font-style: var(--font-style);
+  font-size: var(--font-size);
+  border-radius: 10px;
+}
+
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-container label,
+.login-container input {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.login-container label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  color: var(--text-color);
+  background-color: #f9f9f9;
+  /* A light background */
+  transition: background-color 0.3s;
+}
+
+.login-container input:focus {
+  outline: none;
+  background-color: #e8e8e8;
+  /* Slightly darker background on focus */
+}
+
+
+
+.login-container button {
+  cursor: pointer;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--nav-active-color);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.login-container button:hover {
+  background-color: var(--nav-text-color);
+  color: var(--background-color);
+}
+
+/* Laptop/Tablet */
+@media screen and (max-width: 1024px) {
+  .login-container {
+    width: 90%;
+    padding: 15px;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 600px) {
+  .login-container {
+    width: 95%;
+    padding: 10px;
+  }
+}
+
+
+/* Sign Up Form Container */
+
+/* CSS for Sign Up Form */
+#signup-container {
+  width: 80%;
+  max-width: 400px;
+  margin: 5% auto;
+  padding: 20px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: var(--font-family);
+  font-weight: var(--font-weight);
+  font-style: var(--font-style);
+  font-size: var(--font-size);
+  border-radius: 10px;
+}
+
+#signup-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.form-row label {
+  flex-basis: 30%;
+  font-weight: bold;
+  text-align: left;
+  /* Change from 'right' to 'left' alignment */
+  margin-right: 10px;
+}
+
+.form-row input {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  color: var(--text-color);
+  background-color: #f9f9f9;
+  transition: background-color 0.3s;
+}
+
+.form-row input:focus {
+  outline: none;
+  background-color: #e8e8e8;
+}
+
+#signup-button {
+  cursor: pointer;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--nav-active-color);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#signup-button:hover {
+  background-color: var(--nav-text-color);
+  color: var(--background-color);
+}
+
+/* Laptop/Tablet */
+@media screen and (max-width: 1024px) {
+  #signup-container {
+    width: 90%;
+    padding: 15px;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 600px) {
+  #signup-container {
+    width: 95%;
+    padding: 10px;
+  }
+}
+
+#communication-controller {
+  display: flex;
+  height: 100vh;
+  background-color: #fff;
+}
+
+/* Friend List Styles */
+#friend-controller {
+  display: flex;
+  height: 100%;
+}
+
+.friends-list {
+  width: 320px;
+  /* Set the width to match WhatsApp's user container */
+  max-height: 100%;
+  /* Takes available vertical space */
+  overflow-y: auto;
+  background-color: var(--background-color);
+  /* Customize as needed */
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.friend-list-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.friend-list-item:hover {
+  background-color: #e0e0e0;
+  /* Light gray on hover */
+}
+
+.profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.friend-name {
+  flex-grow: 1;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.status-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.active-status .status-dot {
+  background-color: blue;
+}
+
+.inactive-status .status-dot {
+  background-color: red;
+}
+
+.friend-last-message {
+  flex-grow: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Chat Container Styles */
+#chat-controller {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.chat-ui-container {
+  flex: 1;
+  display: block;
+  flex-direction: column;
+  max-height: calc(100vh);
+  background-color: var(--background-color);
+  border-left: 1px solid #ddd;
+}
+
+.chat-header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: var(--background-color);
+  border-bottom: 1px solid #ddd;
+}
+
+.active-status {
+  background-color: #000dca;
+  /* Green dot for active status */
+}
+
+.inactive-status {
+  background-color: #d60e00;
+  /* Red dot for inactive status */
+}
+
+.chat-messages {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  list-style-type: none;
+  padding: 10px;
+  overflow-y: auto;
+  background-color: var(--background-color);
+  /* Use theme background color */
+}
+
+.chat-message {
+  background-color: #fff;
+  /* Default background color */
+  padding: 8px;
+  margin-bottom: 8px;
+  border-radius: 5px;
+}
+
+/* Update user message style based on theme */
+.user-message {
+  text-align: right;
+}
+
+.friend-message {
+  text-align: left;
+}
+
+
+
+/* Chat Input Styles */
+.chat-input {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #fff;
+  /* Default background color */
+  border-top: 1px solid #ddd;
+}
+
+.message-input {
+  flex-grow: 1;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.send-button {
+  background-color: #4caf50;
+  /* Default green color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.send-button:hover {
+  background-color: #45a049;
+  /* Darker green on hover */
+}
+
+/* Empty Chat Container Styles */
+.empty-chat-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: var(--background-color);
+  /* Use theme background color */
+  color: #fff;
+  /* Default text color */
+  font-size: 18px;
+  /* Default font size */
+  font-weight: bold;
+  /* Default font weight */
+}
+
+.empty-chat-component {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Chat Toggle Button Styles */
+.chat-toggle-button {
+  position: fixed;
+  bottom: 60px;
+  right: 20px;
+  background-color: #4caf50;
+  /* Default green color */
+  color: #fff;
+  /* Text color */
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  line-height: 1;
+  cursor: pointer;
+  display: none;
+  /* Initially hidden on larger screens */
+  z-index: 999;
+  /* Place it above other elements */
+}
+
+/* Media query to show the button on smaller screens */
+@media screen and (max-width: 768px) {
+  .chat-toggle-button {
+    display: block;
+    /* Show the button on mobile screens */
+  }
+
+  .chat-ui-container {
+    flex: 1;
+    display: none;
+    max-height: calc(100vh);
+  }
+}
+
+/* Style for chat message timestamp */
+.chat-message-timestamp {
+  font-size: 12px;
+  color: #888;
+  /* Timestamp color */
+  padding-left: 1rem;
+}
+
+/* Style for chat message status (default: single tick) */
+.chat-message-status {
+  font-size: 12px;
+  color: #888;
+  /* Status indicator color */
+  margin-left: 5px;
+  /* Add some spacing between timestamp and status */
+}
+
+
+
+
+
+
+label[for="attachment-input"] {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #007bff;
+  /* Blue color, you can change it */
+  color: #fff;
+  /* White text color */
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+label[for="attachment-input"]:hover {
+  background-color: #0056b3;
+  /* Darker blue color on hover */
+}
+
+/* Hide the file input */
+#attachment-input {
+  display: none;
+}
+
+
+.chat-notification {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.name-message-container {
+  display: flex;
+  flex-direction: column;
+}

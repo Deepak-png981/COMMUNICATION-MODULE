@@ -1,0 +1,378 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 20,
+    "passes": 20,
+    "pending": 0,
+    "failures": 0,
+    "start": "2023-09-09T11:58:11.760Z",
+    "end": "2023-09-09T11:58:15.957Z",
+    "duration": 4197
+  },
+  "tests": [
+    {
+      "title": "should sign up a new user - Run 1",
+      "fullTitle": "User Authentication should sign up a new user - Run 1",
+      "file": "/home/brajesh/Documents/dot/tests/test.js",
+      "duration": 621,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "should log in an existing user - Run 1",
+      "fullTitle": "User Authentication should log in an existing user - Run 1",
+      "file": "/home/brajesh/Documents/dot/tests/test.js",
+      "duration": 86,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "should sign up a new user - Run 2",
+      "fullTitle": "User Authentication should sign up a new user - Run 2",
+      "file": "/home/brajesh/Documents/dot/tests/test.js",
+      "duration": 341,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "should log in an existing user - Run 2",
+      "fullTitle": "User Authentication should log in an existing user - Run 2",
+      "file": "/home/brajesh/Documents/dot/tests/test.js",
+      "duration": 83,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "should sign up a new user - Run 3",
+      "fullTitle": "User Authentication should sign up a new user - Run 3",
+      "file": "/home/brajesh/Documents/dot/tests/test.js",
+      "duration": 305,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "should log in an existing user - Run 3",
+      "fullTitle": "User Authentication should log in an existing user - Run 3",
+      "file": "/home/brajesh/Documents/dot/tests/test.js",
+      "duration": 84,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "should sign up a new user - Run 4",
+      "fullTitle": "User Authentication should sign up a new user - Run 4",
+      "file": "/home/brajesh/Documents/dot/tests/test.js",
+      "duration": 349,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "should log in an existing user - Run 4",
+      "fullTitle": "User Authentication should log in an existing user - Run 4",
+      "file": "/home/brajesh/Documents/dot/tests/test.js",
+      "duration": 87,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "should sign up a new user - Run 5",
+      "fullTitle": "User Authentication should sign up a new user - Run 5",
+      "file": "/home/brajesh/Documents/dot/tests/test.js",
+      "duration": 257,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "should log in an existing user - Run 5",
+      "fullTitle": "User Authentication should log in an existing user - Run 5",
+      "file": "/home/brajesh/Documents/dot/tests/test.js",
+      "duration": 85,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "should sign up a new user - Run 6",
+      "fullTitle": "User Authentication should sign up a new user - Run 6",
+      "file": "/home/brajesh/Documents/dot/tests/test.js",
+      "duration": 221,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "should log in an existing user - Run 6",
+      "fullTitle": "User Authentication should log in an existing user - Run 6",
+      "file": "/home/brajesh/Documents/dot/tests/test.js",
+      "duration": 84,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "should sign up a new user - Run 7",
+      "fullTitle": "User Authentication should sign up a new user - Run 7",
+      "file": "/home/brajesh/Documents/dot/tests/test.js",
+      "duration": 148,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "should log in an existing user - Run 7",
+      "fullTitle": "User Authentication should log in an existing user - Run 7",
+      "file": "/home/brajesh/Documents/dot/tests/test.js",
+      "duration": 84,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "should sign up a new user - Run 8",
+      "fullTitle": "User Authentication should sign up a new user - Run 8",
+      "file": "/home/brajesh/Documents/dot/tests/test.js",
+      "duration": 445,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "should log in an existing user - Run 8",
+      "fullTitle": "User Authentication should log in an existing user - Run 8",
+      "file": "/home/brajesh/Documents/dot/tests/test.js",
+      "duration": 86,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "should sign up a new user - Run 9",
+      "fullTitle": "User Authentication should sign up a new user - Run 9",
+      "file": "/home/brajesh/Documents/dot/tests/test.js",
+      "duration": 354,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "should log in an existing user - Run 9",
+      "fullTitle": "User Authentication should log in an existing user - Run 9",
+      "file": "/home/brajesh/Documents/dot/tests/test.js",
+      "duration": 84,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "should sign up a new user - Run 10",
+      "fullTitle": "User Authentication should sign up a new user - Run 10",
+      "file": "/home/brajesh/Documents/dot/tests/test.js",
+      "duration": 154,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "should log in an existing user - Run 10",
+      "fullTitle": "User Authentication should log in an existing user - Run 10",
+      "file": "/home/brajesh/Documents/dot/tests/test.js",
+      "duration": 84,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "should sign up a new user - Run 1",
+      "fullTitle": "User Authentication should sign up a new user - Run 1",
+      "file": "/home/brajesh/Documents/dot/tests/test.js",
+      "duration": 621,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "should log in an existing user - Run 1",
+      "fullTitle": "User Authentication should log in an existing user - Run 1",
+      "file": "/home/brajesh/Documents/dot/tests/test.js",
+      "duration": 86,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "should sign up a new user - Run 2",
+      "fullTitle": "User Authentication should sign up a new user - Run 2",
+      "file": "/home/brajesh/Documents/dot/tests/test.js",
+      "duration": 341,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "should log in an existing user - Run 2",
+      "fullTitle": "User Authentication should log in an existing user - Run 2",
+      "file": "/home/brajesh/Documents/dot/tests/test.js",
+      "duration": 83,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "should sign up a new user - Run 3",
+      "fullTitle": "User Authentication should sign up a new user - Run 3",
+      "file": "/home/brajesh/Documents/dot/tests/test.js",
+      "duration": 305,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "should log in an existing user - Run 3",
+      "fullTitle": "User Authentication should log in an existing user - Run 3",
+      "file": "/home/brajesh/Documents/dot/tests/test.js",
+      "duration": 84,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "should sign up a new user - Run 4",
+      "fullTitle": "User Authentication should sign up a new user - Run 4",
+      "file": "/home/brajesh/Documents/dot/tests/test.js",
+      "duration": 349,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "should log in an existing user - Run 4",
+      "fullTitle": "User Authentication should log in an existing user - Run 4",
+      "file": "/home/brajesh/Documents/dot/tests/test.js",
+      "duration": 87,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "should sign up a new user - Run 5",
+      "fullTitle": "User Authentication should sign up a new user - Run 5",
+      "file": "/home/brajesh/Documents/dot/tests/test.js",
+      "duration": 257,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "should log in an existing user - Run 5",
+      "fullTitle": "User Authentication should log in an existing user - Run 5",
+      "file": "/home/brajesh/Documents/dot/tests/test.js",
+      "duration": 85,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "should sign up a new user - Run 6",
+      "fullTitle": "User Authentication should sign up a new user - Run 6",
+      "file": "/home/brajesh/Documents/dot/tests/test.js",
+      "duration": 221,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "should log in an existing user - Run 6",
+      "fullTitle": "User Authentication should log in an existing user - Run 6",
+      "file": "/home/brajesh/Documents/dot/tests/test.js",
+      "duration": 84,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "should sign up a new user - Run 7",
+      "fullTitle": "User Authentication should sign up a new user - Run 7",
+      "file": "/home/brajesh/Documents/dot/tests/test.js",
+      "duration": 148,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "should log in an existing user - Run 7",
+      "fullTitle": "User Authentication should log in an existing user - Run 7",
+      "file": "/home/brajesh/Documents/dot/tests/test.js",
+      "duration": 84,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "should sign up a new user - Run 8",
+      "fullTitle": "User Authentication should sign up a new user - Run 8",
+      "file": "/home/brajesh/Documents/dot/tests/test.js",
+      "duration": 445,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "should log in an existing user - Run 8",
+      "fullTitle": "User Authentication should log in an existing user - Run 8",
+      "file": "/home/brajesh/Documents/dot/tests/test.js",
+      "duration": 86,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "should sign up a new user - Run 9",
+      "fullTitle": "User Authentication should sign up a new user - Run 9",
+      "file": "/home/brajesh/Documents/dot/tests/test.js",
+      "duration": 354,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "should log in an existing user - Run 9",
+      "fullTitle": "User Authentication should log in an existing user - Run 9",
+      "file": "/home/brajesh/Documents/dot/tests/test.js",
+      "duration": 84,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "should sign up a new user - Run 10",
+      "fullTitle": "User Authentication should sign up a new user - Run 10",
+      "file": "/home/brajesh/Documents/dot/tests/test.js",
+      "duration": 154,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "should log in an existing user - Run 10",
+      "fullTitle": "User Authentication should log in an existing user - Run 10",
+      "file": "/home/brajesh/Documents/dot/tests/test.js",
+      "duration": 84,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    }
+  ]
+}
